@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: helvetica;
+  color: #0F0A0A;
+  background-image: url(images/grain.png);
+  background-color: #F5EFED;
+}
+/*----------------------------------------------------------------------------*/
+/*ALL PAGES-------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+.menubtn{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+
+}
+.menubtn span{
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+  background-color: black;
+
+  transition: .3s;
+}
+.menubtn span:nth-child(1){
+  top: 20%;
+}
+.menubtn.is-active span:nth-child(1){
+  top: 50%;
+
+  transform: rotate(45deg);
+}
+.menubtn span:nth-child(2){
+  top: 50%;
+}
+.menubtn.is-active span:nth-child(2){
+  visibility: hidden;
+
+  transition: .1s;
+}
+.menubtn span:nth-child(3){
+  top: 80%;
+}
+.menubtn.is-active span:nth-child(3){
+  top: 50%;
+
+  transform: rotate(-45deg);
+}
+.menu{
+  position: fixed;
+  z-index: 1;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: #BAFF29;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .3s;
+
+  visibility: hidden;
+  opacity: 0;
+}
+.menu.is-active{
+  visibility: visible;
+  opacity: 1;
+}
+.menuitem{
+  list-style: none;
+}
+.menulink{
+  color: #0F0A0A;
+  text-decoration: none;
+}
+
+header{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+header a{
+  font-size: 30px;
+  color: #0F0A0A;
+  text-decoration: none;
+}
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.etalage{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+footer{
+  width: 100vw;
+  height: 100vh;
+  background-color: #0F0A0A;
+
+  color: #F5EFED;
+}
+footer a{
+  color: #F5EFED;
+  text-decoration: none;
+}
+/*----------------------------------------------------------------------------*/
+/*MOBILE----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
