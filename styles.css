@@ -108,8 +108,66 @@ header a{
   width: 100vw;
   height: 100vh;
 }
+.etalage h2{
+  margin-top: 100px;
+}
+.projects{
+  width: 100vw;
+  height: 75%;
+  display: flex;
+  overflow-x: scroll;
+}
+.explore{
+  position: static;
+  margin: auto 20px auto auto;
 
+  width: 10vw;
+  background: red;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #0F0A0A;
+  text-decoration: none;
+}
+.arrow{
+  position: sticky;
+  bottom: 20px;
+  right: 20px;
+
+  width: 3em;
+  height: 25px;
+
+  display: flex;
+
+}
+.arrow span{
+  position: absolute;
+
+  height: 2px;
+  background-color: black;
+}
+.arrow span:nth-child(1){
+  top: 30%;
+  right: 0;
+  width: 25%;
+
+  transform: rotate(45deg);
+}
+.arrow span:nth-child(2){
+  top: 50%;
+  right: 1px;
+
+  width: 100%;
+}
+.arrow span:nth-child(3){
+  top: 70%;
+  right: 0;
+  width: 25%;
+
+  transform: rotate(-45deg);
+}
 footer{
   width: 100vw;
   height: 100vh;
@@ -121,6 +179,8 @@ footer a{
   color: #F5EFED;
   text-decoration: none;
 }
+
+
 /*----------------------------------------------------------------------------*/
 /*MOBILE----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
@@ -128,4 +188,13 @@ footer a{
 footer{
   display: flex;
   flex-direction: column;
+}
+
+.work {
+
+  width: 80vw;
+  height: 90%;
+  margin: 20px;
+  background-color: #BAFF29;
+
 }
