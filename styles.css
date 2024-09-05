@@ -153,11 +153,11 @@
             }
             .footerlist
 /* BUTTONS ---------------------- */
-.button{
-    padding: 9px 15px;
-    border: 1px solid #eeeeee;
-    border-radius: 20px;
-}
+      .button{
+          padding: 9px 15px;
+          border: 1px solid #eeeeee;
+          border-radius: 20px;   
+      }
     .menulist-item>.button, .herotext>.button{
         background-color: #eeeeee;
         color: green;
@@ -376,8 +376,6 @@
                 margin-bottom: 2rem;
             }
         /* FOOTER ----------------------- */
-            .footercontent{
-            }
                 .footeritems, .footercontact, .footerpagelist{
                     display: flex;
                 }
