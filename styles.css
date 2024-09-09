@@ -639,6 +639,8 @@
                     width: 100%;
                     position: sticky;
                     bottom: 0;
+                    left: 0;
+                    right: 0;
                     background-color: #eeeeee;
                     padding-block: 2rem;
 
@@ -683,7 +685,7 @@
             }
         /* PRACTICAL -------------------- */
         .requirements, .schedule, .location{
-            padding: 2rem;
+            /*padding: 2rem;*/
             align-items: stretch;
         }
             #schedule{
