@@ -685,7 +685,6 @@
             }
         /* PRACTICAL -------------------- */
         .requirements, .schedule, .location{
-            padding: 1rem;
             align-items: stretch;
         }
             iframe{
