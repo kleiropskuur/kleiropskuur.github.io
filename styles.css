@@ -686,6 +686,9 @@
             padding: 2rem;
             align-items: stretch;
         }
+            #schedule{
+               width: 100%;
+            }
             iframe{
                 padding:0;
                 margin: 2rem auto;
