@@ -289,6 +289,9 @@
         .groups h3:last-of-type, .schedule h3:last-of-type{
             margin-top: 3rem;
         }
+         .trainers{
+            display: none;
+         }
         .trainercollection{
             display: flex;
             flex-wrap: wrap;
